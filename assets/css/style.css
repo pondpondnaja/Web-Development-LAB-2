@@ -1,0 +1,106 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
+  line-height: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+a {
+  color: rgb(255, 255, 255);
+}
+
+h1 {
+  color: #000;
+  font-weight: 700;
+}
+
+label{
+  font-size: 18px;
+}
+
+.navbar-inverse {
+  background: rgba(0, 0, 0, 1);
+  border: rgba(0, 0, 0, 1);
+}
+
+.navbar ul {
+  margin: 15px 0 15px 0;
+  float: left;
+}
+
+.navbar-nav {
+  flex-direction: row;
+}
+
+.navbar-nav .nav-link{
+  padding: 0 15px 0 15px;
+}
+
+.navbar-nav>li.active>a,
+.navbar-nav>li:hover>a,
+.navbar-nav>li>a:hover {
+  color: #00d9ff !important;
+}
+
+
+/*-------HOME-------*/
+#pro_pic {
+  width: 400px;
+  height: 500px;
+  margin-top: 20px;
+}
+
+#facebook_pic {
+  width: 70px;
+  height: 70px;
+  margin-top: 10px;
+}
+
+#detail{
+  max-width: 18%;
+  margin: 10px;
+}
+
+#detail li {
+  text-align: left;
+  font-size: 18px;
+}
+/*----END - HOME----*/
+
+/*-------ABOUT------*/
+.table{
+  width: 60%;
+}
+
+.center-cropped {
+  width: 500px;
+  height: 400px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+/*---END - ABOUT----*/
+
+/*-------FORM-------*/
+form{
+  margin: 2rem 0 18rem 0;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+/*----END - FORM----*/
+
+.page-footer{
+  position:relative;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 1);
+  color: white;
+}
