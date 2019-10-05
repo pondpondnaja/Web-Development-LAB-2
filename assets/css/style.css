@@ -1,34 +1,24 @@
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  color: #000;
-  line-height: 16px;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 500;
-  line-height: 40px;
-}
-
-a {
-  color: rgb(255, 255, 255);
-}
-
-h1 {
-  color: #000;
-  font-weight: 700;
-}
-
-label{
-  font-size: 18px;
-}
-
 .fit-image{
-width: 100%;
-object-fit: cover;
-height: 300px; /* only if you want fixed height */
+  width: 100%;
+  object-fit: cover;
+  height: 300px; /* only if you want fixed height */
+}
+
+.jumbotron {
+  background-image: url("../img/bannerpop_col1.jpg");
+  background-size: cover;
+}
+
+@media (max-width: 575px){
+  .jumbotron {
+    padding: 0.5rem 2rem;
+  }
+}
+
+@media (min-width: 576px){
+  .jumbotron {
+    padding: 0.5rem 2rem;
+  }
 }
 
 .page-footer{
@@ -37,4 +27,29 @@ height: 300px; /* only if you want fixed height */
   width: 100%;
   background: rgba(0, 0, 0, 1);
   color: white;
+}
+
+.alert{
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+  height: 12rem;
+  font-size: 1.5rem;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 1.5rem;
+}
+
+.closebtn:hover {
+  color: black;
 }
